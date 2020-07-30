@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gorilla/mux"
-	"net/http"
 	"github.com/skyezerfox/taghost/routes"
+	"net/http"
 )
 
 type route struct {

@@ -13,4 +13,3 @@ type Asset struct {
 func GetAsset(id string) (Asset, error) {
 	return Asset{}, errors.New("asset does not exist")
 }
-
